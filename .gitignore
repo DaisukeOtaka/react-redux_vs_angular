@@ -1,0 +1,12 @@
+# Dependency directories
+node_modules
+node_cache
+
+# Compiled Files
+dist
+
+# Optional npm cache directory
+.npm
+
+# Mac Metadata
+.DS_Store

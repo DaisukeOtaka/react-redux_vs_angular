@@ -1,0 +1,51 @@
+{
+  "name": "react-redux_vs_angular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "angular1": "node angular1/server.js",
+    "angular2": "node angular2/server.js",
+    "react-redux": "node react-redux/server.js",
+    "tsc": "tsc -p .",
+    "angular_webpack": "webpack angular2/src/index.js --output-filename angular2/dist/bundle.js",
+    "angular_build": "npm run tsc && npm run angular_webpack",
+    "react_build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaisukeOtaka/react-redux_vs_angular.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DaisukeOtaka/react-redux_vs_angular/issues"
+  },
+  "homepage": "https://github.com/DaisukeOtaka/react-redux_vs_angular#readme",
+  "devDependencies": {
+    "@angular/core": "^2.4.0",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "express": "^4.14.0",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "@angular/common": "^2.4.0",
+    "@angular/compiler": "^2.4.0",
+    "@angular/core": "^2.4.0",
+    "@angular/forms": "^2.4.0",
+    "@angular/http": "^2.4.0",
+    "@angular/platform-browser": "^2.4.0",
+    "@angular/platform-browser-dynamic": "^2.4.0",
+    "core-js": "^2.4.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-redux": "^5.0.1",
+    "redux": "^3.6.0",
+    "redux-actions": "^1.2.0",
+    "rxjs": "^5.0.1",
+    "zone.js": "^0.7.4"
+  }
+}

@@ -1,0 +1,2 @@
+export const CALC_FIZZ_BUZZ = 'CALC_FIZZ_BUZZ'
+export const UPDATE_VALUES = 'UPDATE_VALUES'
