@@ -1,5 +1,9 @@
 # react-redux_vs_angular
 
+# Overview
+React-ReduxとAngular(1&2)の比較サンプルです。  
+起動すると入力値に応じたFizzBuzzを出力します。  
+
 # Usage
 
 ## Clone repository
