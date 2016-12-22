@@ -8,9 +8,10 @@
     "angular2": "node angular2/server.js",
     "react-redux": "node react-redux/server.js",
     "tsc": "tsc -p .",
-    "angular_webpack": "webpack angular2/src/index.js --output-filename angular2/dist/bundle.js",
+    "angular_webpack": "webpack --config webpack.config.angular2.js",
     "angular_build": "npm run tsc && npm run angular_webpack",
-    "react_build": "webpack"
+    "react_webpack": "webpack --config webpack.config.react-redux.js",
+    "react_build": "npm run react_webpack"
   },
   "repository": {
     "type": "git",

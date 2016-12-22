@@ -19,3 +19,30 @@ $ npm install -g typings
 $ cd react-redux_vs_angular
 $ npm install
 ```
+
+## Build
+### Angular2
+```bash
+$ npm run angular_build
+```
+
+### React-Redux
+```bash
+$ npm run react_build
+```
+
+## Run
+### Angular1
+```bash
+$ npm run angular1
+```
+
+### Angular2
+```bash
+$ npm run angular2
+```
+
+### React-Redux
+```bash
+$ npm run react-redux
+```
