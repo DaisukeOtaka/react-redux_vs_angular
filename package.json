@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "angular1": "node angular1/server.js",
     "angular2": "node angular2/server.js",
     "react-redux": "node react-redux/server.js",
