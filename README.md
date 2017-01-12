@@ -5,11 +5,11 @@ React-ReduxとAngular(1&2)の比較サンプルです。
 起動すると入力値に応じたFizzBuzzを出力します。  
 
 # Demo
-## Angular1
-[Angular1 Sample](https://goshawk-react-redux-vs-angular.herokuapp.com/angular1/)
-
 ## AngularJS
-[AngularJS Sample](https://goshawk-react-redux-vs-angular.herokuapp.com/angular2/)
+[AngularJS Sample](https://goshawk-react-redux-vs-angular.herokuapp.com/angular1/)
+
+## Angular2
+[Angular2 Sample](https://goshawk-react-redux-vs-angular.herokuapp.com/angular2/)
 
 ## React-Redux
 [React-Redux Sample](https://goshawk-react-redux-vs-angular.herokuapp.com/react-redux/)
@@ -46,7 +46,7 @@ $ npm run react_build
 ```
 
 ## Run
-### Angular1
+### AngularJS
 ```bash
 $ npm run angular1
 ```
