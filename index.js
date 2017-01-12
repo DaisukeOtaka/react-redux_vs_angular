@@ -15,7 +15,7 @@ app.set('port', (process.env.PORT || 5000));
 //====================================================================================================
 // Served Contents
 //====================================================================================================
-app.use('/', express.static(__dirname + '/angular1/dist'));
+app.use('/', express.static(path.join(__dirname, 'angular1/dist')));
 app.use('/angular1', express.static(path.join(__dirname, 'angular1/dist')));
 app.use('/angular2', express.static(path.join(__dirname, 'angular2/dist')));
 app.use('/react-redux', express.static(path.join(__dirname, 'react-redux/dist')));
