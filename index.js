@@ -27,3 +27,7 @@ app.use('/react-redux', express.static(path.join(__dirname, 'react-redux/dist'))
 app.listen(app.get('port'), function() {
   console.log('Served: http://localhost:' + app.get('port'));
 });
+
+app.get('/', function(request, response) {
+  response.redirect('/angular1');
+});
