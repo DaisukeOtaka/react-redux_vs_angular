@@ -1,0 +1,8 @@
+{
+  "name": "react-redux_vs_angular",
+  "description": "React-Redux vs Angular sample app",
+  "repository": "https://github.com/DaisukeOtaka/react-redux_vs_angular",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}
