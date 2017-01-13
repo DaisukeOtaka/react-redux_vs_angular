@@ -60,3 +60,6 @@ $ npm run angular2
 ```bash
 $ npm run react-redux
 ```
+
+# Deploy to Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
