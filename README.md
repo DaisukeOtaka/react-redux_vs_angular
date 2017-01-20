@@ -17,10 +17,9 @@ React-ReduxとAngular(1&2)の比較サンプルです。
 $ git clone https://github.com/DaisukeOtaka/react-redux_vs_angular.git
 ```
 
-## Install TypeScript Compiler & Definition Manager
+## Install TypeScript Compiler
 ```bash
 $ npm install -g tsc
-$ npm install -g typings
 ```
 
 ## Install required packages
